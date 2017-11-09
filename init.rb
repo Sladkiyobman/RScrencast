@@ -23,3 +23,5 @@ order.remove_item
 puts order.items.size
 
 puts order.count_valid_items
+puts order.count_valid_items
+
