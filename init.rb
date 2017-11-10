@@ -1,9 +1,11 @@
+require_relative "string"
 require_relative "item_container"
-require_relative "order"
 require_relative "cart"
+require_relative "order"
 require_relative "item"
-require_relative "real_item"
 require_relative "virtua_item"
+require_relative "real_item"
+
 
 @items = []
 @items << RealItem.new(:price => 101, :weight => 100, :name => "car")
